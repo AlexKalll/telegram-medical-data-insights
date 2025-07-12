@@ -1,1 +1,27 @@
+# Environment variables
 .env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env/
+*.egg-info/
+dist/
+build/
+
+# Data
+data/raw/
+data/images/
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# IDE
+.vscode/
+.idea/
