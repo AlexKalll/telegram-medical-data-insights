@@ -63,7 +63,7 @@ async def scrape_channel(client, channel_username, date_str):
             message_data = {
                 'message_id': message.id,
                 'channel': channel_name, # Use the internal name for consistency
-                'date': message.date.isoformat(),
+                'date': message.date.isoformat().split("T")[0], # in yyyy-mm-dd format only
                 'text': message.text or '',
                 'views': message.views if message.views is not None else 0,
                 'forwards': message.forwards if message.forwards is not None else 0,
