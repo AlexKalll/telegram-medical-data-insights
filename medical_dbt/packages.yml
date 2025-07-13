@@ -1,0 +1,5 @@
+# medical_dbt/packages.yml
+
+packages:
+  - package: dbt-labs/dbt_utils
+    version: 1.3.0 # Use a compatible version, check dbt-utils docs for latest
