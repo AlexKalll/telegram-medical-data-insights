@@ -19,7 +19,6 @@ data/raw/
 data/images/
 
 # Docker
-*.log
 docker-compose.override.yml
 
 # IDE
