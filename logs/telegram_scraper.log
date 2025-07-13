@@ -1,0 +1,351 @@
+2025-07-13 10:29:59,602 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-13 10:30:00,065 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-13 10:30:05,573 - INFO - Telegram client authenticated successfully
+2025-07-13 10:30:05,574 - INFO - Starting scrape for channel: Chemed
+2025-07-13 10:30:06,556 - INFO - Scraping channel: @CheMed123 (Internal name: Chemed)
+2025-07-13 10:30:11,075 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:30:13,149 - INFO - Downloaded photo for message 97 from Chemed to data/images/Chemed_97.jpg
+2025-07-13 10:30:13,159 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:30:15,896 - INFO - Downloaded photo for message 96 from Chemed to data/images/Chemed_96.jpg
+2025-07-13 10:30:15,907 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:30:17,490 - INFO - Downloaded photo for message 95 from Chemed to data/images/Chemed_95.jpg
+2025-07-13 10:30:17,508 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:30:20,263 - INFO - Downloaded photo for message 94 from Chemed to data/images/Chemed_94.jpg
+2025-07-13 10:30:20,302 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:30:23,238 - INFO - Downloaded photo for message 93 from Chemed to data/images/Chemed_93.jpg
+2025-07-13 10:30:23,254 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:30:25,995 - INFO - Downloaded photo for message 92 from Chemed to data/images/Chemed_92.jpg
+2025-07-13 10:30:26,005 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:30:29,214 - INFO - Downloaded photo for message 91 from Chemed to data/images/Chemed_91.jpg
+2025-07-13 10:30:29,224 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:30:31,960 - INFO - Downloaded photo for message 90 from Chemed to data/images/Chemed_90.jpg
+2025-07-13 10:30:31,971 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:30:35,170 - INFO - Downloaded photo for message 88 from Chemed to data/images/Chemed_88.jpg
+2025-07-13 10:30:35,181 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:30:37,671 - INFO - Downloaded photo for message 87 from Chemed to data/images/Chemed_87.jpg
+2025-07-13 10:30:37,685 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:30:44,049 - INFO - Downloaded photo for message 86 from Chemed to data/images/Chemed_86.jpg
+2025-07-13 10:30:44,061 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:30:47,135 - INFO - Downloaded photo for message 85 from Chemed to data/images/Chemed_85.jpg
+2025-07-13 10:30:47,146 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:30:53,598 - INFO - Downloaded photo for message 82 from Chemed to data/images/Chemed_82.jpg
+2025-07-13 10:30:53,618 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:31:00,001 - INFO - Downloaded photo for message 81 from Chemed to data/images/Chemed_81.jpg
+2025-07-13 10:31:00,040 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:31:03,775 - INFO - Downloaded photo for message 80 from Chemed to data/images/Chemed_80.jpg
+2025-07-13 10:31:03,785 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:31:08,689 - INFO - Downloaded photo for message 79 from Chemed to data/images/Chemed_79.jpg
+2025-07-13 10:31:08,702 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:31:12,940 - INFO - Downloaded photo for message 78 from Chemed to data/images/Chemed_78.jpg
+2025-07-13 10:31:12,974 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:31:15,867 - INFO - Downloaded photo for message 77 from Chemed to data/images/Chemed_77.jpg
+2025-07-13 10:31:15,874 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:31:18,175 - INFO - Downloaded photo for message 76 from Chemed to data/images/Chemed_76.jpg
+2025-07-13 10:31:18,195 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:31:21,967 - INFO - Downloaded photo for message 75 from Chemed to data/images/Chemed_75.jpg
+2025-07-13 10:31:21,980 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:31:23,452 - INFO - Downloaded photo for message 74 from Chemed to data/images/Chemed_74.jpg
+2025-07-13 10:31:23,462 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:31:25,438 - INFO - Downloaded photo for message 71 from Chemed to data/images/Chemed_71.jpg
+2025-07-13 10:31:25,449 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:31:26,065 - INFO - Downloaded photo for message 70 from Chemed to data/images/Chemed_70.jpg
+2025-07-13 10:31:26,080 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:31:27,981 - INFO - Downloaded photo for message 67 from Chemed to data/images/Chemed_67.jpg
+2025-07-13 10:31:27,991 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:31:29,997 - INFO - Downloaded photo for message 64 from Chemed to data/images/Chemed_64.jpg
+2025-07-13 10:31:30,009 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:31:31,036 - INFO - Downloaded photo for message 60 from Chemed to data/images/Chemed_60.jpg
+2025-07-13 10:31:31,046 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:31:32,033 - INFO - Downloaded photo for message 59 from Chemed to data/images/Chemed_59.jpg
+2025-07-13 10:31:32,044 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:31:32,809 - INFO - Downloaded photo for message 58 from Chemed to data/images/Chemed_58.jpg
+2025-07-13 10:31:32,819 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:31:34,370 - INFO - Downloaded photo for message 56 from Chemed to data/images/Chemed_56.jpg
+2025-07-13 10:31:34,380 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:31:36,038 - INFO - Downloaded photo for message 55 from Chemed to data/images/Chemed_55.jpg
+2025-07-13 10:31:36,046 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:31:37,562 - INFO - Downloaded photo for message 53 from Chemed to data/images/Chemed_53.jpg
+2025-07-13 10:31:37,580 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:31:38,382 - INFO - Downloaded photo for message 52 from Chemed to data/images/Chemed_52.jpg
+2025-07-13 10:31:38,390 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:31:39,176 - INFO - Downloaded photo for message 50 from Chemed to data/images/Chemed_50.jpg
+2025-07-13 10:31:39,184 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:31:39,952 - INFO - Downloaded photo for message 49 from Chemed to data/images/Chemed_49.jpg
+2025-07-13 10:31:39,963 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:31:42,568 - INFO - Downloaded photo for message 48 from Chemed to data/images/Chemed_48.jpg
+2025-07-13 10:31:42,581 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:31:44,454 - INFO - Downloaded photo for message 46 from Chemed to data/images/Chemed_46.jpg
+2025-07-13 10:31:44,461 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:31:46,010 - INFO - Downloaded photo for message 45 from Chemed to data/images/Chemed_45.jpg
+2025-07-13 10:31:46,018 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:31:47,697 - INFO - Downloaded photo for message 44 from Chemed to data/images/Chemed_44.jpg
+2025-07-13 10:31:47,705 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:31:49,205 - INFO - Downloaded photo for message 43 from Chemed to data/images/Chemed_43.jpg
+2025-07-13 10:31:49,214 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:31:51,296 - INFO - Downloaded photo for message 41 from Chemed to data/images/Chemed_41.jpg
+2025-07-13 10:31:51,319 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:31:52,297 - INFO - Downloaded photo for message 40 from Chemed to data/images/Chemed_40.jpg
+2025-07-13 10:31:52,309 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:31:54,006 - INFO - Downloaded photo for message 39 from Chemed to data/images/Chemed_39.jpg
+2025-07-13 10:31:54,022 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:31:54,503 - INFO - Downloaded photo for message 38 from Chemed to data/images/Chemed_38.jpg
+2025-07-13 10:31:54,516 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:31:54,569 - INFO - Downloaded photo for message 34 from Chemed to data/images/Chemed_34.jpg
+2025-07-13 10:31:54,594 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:31:56,421 - INFO - Downloaded photo for message 33 from Chemed to data/images/Chemed_33.jpg
+2025-07-13 10:31:56,434 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:31:57,649 - INFO - Downloaded photo for message 32 from Chemed to data/images/Chemed_32.jpg
+2025-07-13 10:31:57,659 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:31:58,605 - INFO - Downloaded photo for message 31 from Chemed to data/images/Chemed_31.jpg
+2025-07-13 10:31:58,614 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:31:59,318 - INFO - Downloaded photo for message 30 from Chemed to data/images/Chemed_30.jpg
+2025-07-13 10:31:59,328 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:32:01,245 - INFO - Downloaded photo for message 29 from Chemed to data/images/Chemed_29.jpg
+2025-07-13 10:32:01,253 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:32:02,147 - INFO - Downloaded photo for message 27 from Chemed to data/images/Chemed_27.jpg
+2025-07-13 10:32:02,161 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:32:04,136 - INFO - Downloaded photo for message 26 from Chemed to data/images/Chemed_26.jpg
+2025-07-13 10:32:04,145 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:32:04,967 - INFO - Downloaded photo for message 25 from Chemed to data/images/Chemed_25.jpg
+2025-07-13 10:32:04,976 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:32:05,730 - INFO - Downloaded photo for message 23 from Chemed to data/images/Chemed_23.jpg
+2025-07-13 10:32:05,738 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:32:06,510 - INFO - Downloaded photo for message 22 from Chemed to data/images/Chemed_22.jpg
+2025-07-13 10:32:06,520 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:32:07,419 - INFO - Downloaded photo for message 21 from Chemed to data/images/Chemed_21.jpg
+2025-07-13 10:32:07,430 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:32:09,408 - INFO - Downloaded photo for message 20 from Chemed to data/images/Chemed_20.jpg
+2025-07-13 10:32:09,571 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:32:11,350 - INFO - Downloaded photo for message 19 from Chemed to data/images/Chemed_19.jpg
+2025-07-13 10:32:11,372 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:32:12,146 - INFO - Downloaded photo for message 18 from Chemed to data/images/Chemed_18.jpg
+2025-07-13 10:32:12,155 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:32:13,036 - INFO - Downloaded photo for message 17 from Chemed to data/images/Chemed_17.jpg
+2025-07-13 10:32:13,045 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:32:13,860 - INFO - Downloaded photo for message 15 from Chemed to data/images/Chemed_15.jpg
+2025-07-13 10:32:13,870 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:32:15,181 - INFO - Downloaded photo for message 14 from Chemed to data/images/Chemed_14.jpg
+2025-07-13 10:32:15,195 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:32:17,854 - INFO - Downloaded photo for message 13 from Chemed to data/images/Chemed_13.jpg
+2025-07-13 10:32:17,865 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:32:19,687 - INFO - Downloaded photo for message 11 from Chemed to data/images/Chemed_11.jpg
+2025-07-13 10:32:19,696 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:32:22,459 - INFO - Downloaded photo for message 10 from Chemed to data/images/Chemed_10.jpg
+2025-07-13 10:32:22,467 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:32:23,235 - INFO - Downloaded photo for message 9 from Chemed to data/images/Chemed_9.jpg
+2025-07-13 10:32:23,244 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:32:22,456 - INFO - Downloaded photo for message 3 from Chemed to data/images/Chemed_3.jpg
+2025-07-13 10:32:22,466 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:32:23,198 - INFO - Downloaded photo for message 2 from Chemed to data/images/Chemed_2.jpg
+2025-07-13 10:32:23,207 - INFO - Saved 76 messages from Chemed to data/raw/telegram_messages/2025-07-13/Chemed.json
+2025-07-13 10:32:23,208 - INFO - Completed scrape for channel: Chemed
+2025-07-13 10:32:23,208 - INFO - Starting scrape for channel: Lobelia4Cosmetics
+2025-07-13 10:32:24,004 - INFO - Scraping channel: @lobelia4cosmetics (Internal name: Lobelia4Cosmetics)
+2025-07-13 10:32:24,857 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:32:25,755 - INFO - Downloaded photo for message 18535 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18535.jpg
+2025-07-13 10:32:25,769 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:32:26,746 - INFO - Downloaded photo for message 18534 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18534.jpg
+2025-07-13 10:32:26,763 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:32:27,557 - INFO - Downloaded photo for message 18533 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18533.jpg
+2025-07-13 10:32:27,568 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:32:28,456 - INFO - Downloaded photo for message 18532 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18532.jpg
+2025-07-13 10:32:28,466 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:32:29,216 - INFO - Downloaded photo for message 18531 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18531.jpg
+2025-07-13 10:32:29,225 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:32:30,035 - INFO - Downloaded photo for message 18530 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18530.jpg
+2025-07-13 10:32:30,048 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:32:30,768 - INFO - Downloaded photo for message 18529 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18529.jpg
+2025-07-13 10:32:30,781 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:32:32,401 - INFO - Downloaded photo for message 18528 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18528.jpg
+2025-07-13 10:32:32,410 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:32:33,931 - INFO - Downloaded photo for message 18527 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18527.jpg
+2025-07-13 10:32:33,940 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:32:35,616 - INFO - Downloaded photo for message 18526 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18526.jpg
+2025-07-13 10:32:35,627 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:32:37,069 - INFO - Downloaded photo for message 18525 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18525.jpg
+2025-07-13 10:32:37,080 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:33:12,990 - INFO - Downloaded photo for message 18524 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18524.jpg
+2025-07-13 10:33:13,007 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:33:35,310 - INFO - Downloaded photo for message 18523 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18523.jpg
+2025-07-13 10:33:35,325 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:33:37,774 - INFO - Downloaded photo for message 18522 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18522.jpg
+2025-07-13 10:33:37,788 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:33:39,725 - INFO - Downloaded photo for message 18521 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18521.jpg
+2025-07-13 10:33:39,736 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:33:43,429 - INFO - Downloaded photo for message 18520 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18520.jpg
+2025-07-13 10:33:43,440 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:33:49,644 - INFO - Downloaded photo for message 18519 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18519.jpg
+2025-07-13 10:33:49,653 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:33:52,982 - INFO - Downloaded photo for message 18518 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18518.jpg
+2025-07-13 10:33:52,991 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:33:53,758 - INFO - Downloaded photo for message 18517 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18517.jpg
+2025-07-13 10:33:53,804 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:33:58,856 - INFO - Downloaded photo for message 18516 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18516.jpg
+2025-07-13 10:33:58,866 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:34:03,668 - INFO - Downloaded photo for message 18515 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18515.jpg
+2025-07-13 10:34:03,682 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:34:04,572 - INFO - Downloaded photo for message 18514 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18514.jpg
+2025-07-13 10:34:04,584 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:34:05,644 - INFO - Downloaded photo for message 18513 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18513.jpg
+2025-07-13 10:34:05,834 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:34:06,863 - INFO - Downloaded photo for message 18512 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18512.jpg
+2025-07-13 10:34:06,872 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:34:07,918 - INFO - Downloaded photo for message 18511 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18511.jpg
+2025-07-13 10:34:07,932 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:34:11,522 - INFO - Downloaded photo for message 18510 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18510.jpg
+2025-07-13 10:34:11,536 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:34:12,663 - INFO - Downloaded photo for message 18509 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18509.jpg
+2025-07-13 10:34:12,672 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:34:17,146 - INFO - Downloaded photo for message 18508 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18508.jpg
+2025-07-13 10:34:17,156 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:34:17,451 - INFO - Downloaded photo for message 18507 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18507.jpg
+2025-07-13 10:34:17,460 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:34:21,345 - INFO - Downloaded photo for message 18506 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18506.jpg
+2025-07-13 10:34:21,354 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:34:25,822 - INFO - Downloaded photo for message 18505 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18505.jpg
+2025-07-13 10:34:25,831 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:34:27,915 - INFO - Downloaded photo for message 18504 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18504.jpg
+2025-07-13 10:34:27,928 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:34:29,980 - INFO - Downloaded photo for message 18503 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18503.jpg
+2025-07-13 10:34:29,991 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:34:31,986 - INFO - Downloaded photo for message 18502 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18502.jpg
+2025-07-13 10:34:32,005 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:34:33,887 - INFO - Downloaded photo for message 18501 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18501.jpg
+2025-07-13 10:34:33,896 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:34:34,771 - INFO - Downloaded photo for message 18500 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18500.jpg
+2025-07-13 10:34:34,793 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:34:37,324 - INFO - Downloaded photo for message 18499 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18499.jpg
+2025-07-13 10:34:37,333 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:34:39,437 - INFO - Downloaded photo for message 18498 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18498.jpg
+2025-07-13 10:34:39,449 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:34:40,203 - INFO - Downloaded photo for message 18497 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18497.jpg
+2025-07-13 10:34:40,215 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:34:42,525 - INFO - Downloaded photo for message 18496 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18496.jpg
+2025-07-13 10:34:42,534 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:34:43,746 - INFO - Downloaded photo for message 18495 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18495.jpg
+2025-07-13 10:34:43,762 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:34:44,909 - INFO - Downloaded photo for message 18494 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18494.jpg
+2025-07-13 10:34:44,920 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:34:45,862 - INFO - Downloaded photo for message 18493 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18493.jpg
+2025-07-13 10:34:45,872 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:34:45,850 - INFO - Downloaded photo for message 18492 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18492.jpg
+2025-07-13 10:34:45,859 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:34:48,885 - INFO - Downloaded photo for message 18491 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18491.jpg
+2025-07-13 10:34:48,897 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:34:53,122 - INFO - Downloaded photo for message 18490 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18490.jpg
+2025-07-13 10:34:53,130 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:34:53,730 - INFO - Downloaded photo for message 18489 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18489.jpg
+2025-07-13 10:34:53,748 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:34:55,949 - INFO - Downloaded photo for message 18488 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18488.jpg
+2025-07-13 10:34:55,966 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:34:57,472 - INFO - Downloaded photo for message 18487 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18487.jpg
+2025-07-13 10:34:57,518 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:34:59,749 - INFO - Downloaded photo for message 18486 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18486.jpg
+2025-07-13 10:34:59,761 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:35:02,042 - INFO - Downloaded photo for message 18485 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18485.jpg
+2025-07-13 10:35:02,052 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:35:07,528 - INFO - Downloaded photo for message 18484 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18484.jpg
+2025-07-13 10:35:07,539 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:35:09,803 - INFO - Downloaded photo for message 18483 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18483.jpg
+2025-07-13 10:35:09,813 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:35:12,449 - INFO - Downloaded photo for message 18482 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18482.jpg
+2025-07-13 10:35:12,468 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:35:15,869 - INFO - Downloaded photo for message 18481 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18481.jpg
+2025-07-13 10:35:15,880 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:35:19,639 - INFO - Downloaded photo for message 18480 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18480.jpg
+2025-07-13 10:35:19,648 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:35:20,441 - INFO - Downloaded photo for message 18479 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18479.jpg
+2025-07-13 10:35:20,483 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:35:22,577 - INFO - Downloaded photo for message 18478 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18478.jpg
+2025-07-13 10:35:22,586 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:35:24,000 - INFO - Downloaded photo for message 18477 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18477.jpg
+2025-07-13 10:35:24,010 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:35:28,450 - INFO - Downloaded photo for message 18476 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18476.jpg
+2025-07-13 10:35:28,461 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:35:30,168 - INFO - Downloaded photo for message 18475 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18475.jpg
+2025-07-13 10:35:30,179 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:35:31,539 - INFO - Downloaded photo for message 18474 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18474.jpg
+2025-07-13 10:35:31,547 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:35:32,468 - INFO - Downloaded photo for message 18473 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18473.jpg
+2025-07-13 10:35:32,479 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:35:33,375 - INFO - Downloaded photo for message 18472 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18472.jpg
+2025-07-13 10:35:33,384 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:35:34,617 - INFO - Downloaded photo for message 18471 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18471.jpg
+2025-07-13 10:35:34,627 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:35:35,969 - INFO - Downloaded photo for message 18470 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18470.jpg
+2025-07-13 10:35:36,000 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:35:37,748 - INFO - Downloaded photo for message 18469 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18469.jpg
+2025-07-13 10:35:37,758 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:35:38,951 - INFO - Downloaded photo for message 18468 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18468.jpg
+2025-07-13 10:35:38,961 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:35:40,453 - INFO - Downloaded photo for message 18467 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18467.jpg
+2025-07-13 10:35:40,464 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:35:41,355 - INFO - Downloaded photo for message 18466 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18466.jpg
+2025-07-13 10:35:41,372 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:35:42,188 - INFO - Downloaded photo for message 18465 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18465.jpg
+2025-07-13 10:35:42,236 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:35:42,996 - INFO - Downloaded photo for message 18464 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18464.jpg
+2025-07-13 10:35:43,007 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:35:43,835 - INFO - Downloaded photo for message 18463 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18463.jpg
+2025-07-13 10:35:43,845 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:35:46,838 - INFO - Downloaded photo for message 18462 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18462.jpg
+2025-07-13 10:35:46,847 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:35:48,246 - INFO - Downloaded photo for message 18461 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18461.jpg
+2025-07-13 10:35:48,256 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:35:49,764 - INFO - Downloaded photo for message 18460 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18460.jpg
+2025-07-13 10:35:49,773 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:35:51,480 - INFO - Downloaded photo for message 18459 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18459.jpg
+2025-07-13 10:35:51,549 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:35:53,863 - INFO - Downloaded photo for message 18458 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18458.jpg
+2025-07-13 10:35:53,873 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:35:55,640 - INFO - Downloaded photo for message 18457 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18457.jpg
+2025-07-13 10:35:55,654 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:35:57,159 - INFO - Downloaded photo for message 18456 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18456.jpg
+2025-07-13 10:35:57,171 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:36:00,765 - INFO - Downloaded photo for message 18455 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18455.jpg
+2025-07-13 10:36:00,776 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:36:03,228 - INFO - Downloaded photo for message 18454 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18454.jpg
+2025-07-13 10:36:03,245 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:36:03,950 - INFO - Downloaded photo for message 18453 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18453.jpg
+2025-07-13 10:36:03,983 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:36:05,670 - INFO - Downloaded photo for message 18452 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18452.jpg
+2025-07-13 10:36:05,685 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:36:06,481 - INFO - Downloaded photo for message 18451 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18451.jpg
+2025-07-13 10:36:06,493 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:36:07,648 - INFO - Downloaded photo for message 18450 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18450.jpg
+2025-07-13 10:36:07,658 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:36:14,914 - INFO - Downloaded photo for message 18449 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18449.jpg
+2025-07-13 10:36:14,923 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:36:17,618 - INFO - Downloaded photo for message 18448 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18448.jpg
+2025-07-13 10:36:17,656 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:36:18,862 - INFO - Downloaded photo for message 18446 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18446.jpg
+2025-07-13 10:36:18,872 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:36:21,822 - INFO - Downloaded photo for message 18445 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18445.jpg
+2025-07-13 10:36:21,832 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:36:25,050 - INFO - Downloaded photo for message 18444 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18444.jpg
+2025-07-13 10:36:25,063 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:36:27,871 - INFO - Downloaded photo for message 18443 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18443.jpg
+2025-07-13 10:36:27,879 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:36:29,575 - INFO - Downloaded photo for message 18442 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18442.jpg
+2025-07-13 10:36:29,588 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:36:34,113 - INFO - Downloaded photo for message 18441 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18441.jpg
+2025-07-13 10:36:34,135 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:36:35,861 - INFO - Downloaded photo for message 18440 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18440.jpg
+2025-07-13 10:36:35,872 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:36:37,449 - INFO - Downloaded photo for message 18439 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18439.jpg
+2025-07-13 10:36:37,459 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:36:38,259 - INFO - Downloaded photo for message 18438 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18438.jpg
+2025-07-13 10:36:38,267 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:36:39,326 - INFO - Downloaded photo for message 18437 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18437.jpg
+2025-07-13 10:36:39,341 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:36:40,164 - INFO - Downloaded photo for message 18436 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18436.jpg
+2025-07-13 10:36:40,173 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-13 10:36:39,926 - INFO - Downloaded photo for message 18435 from Lobelia4Cosmetics to data/images/Lobelia4Cosmetics_18435.jpg
+2025-07-13 10:36:39,943 - INFO - Saved 100 messages from Lobelia4Cosmetics to data/raw/telegram_messages/2025-07-13/Lobelia4Cosmetics.json
+2025-07-13 10:36:39,944 - INFO - Completed scrape for channel: Lobelia4Cosmetics
+2025-07-13 10:36:39,944 - INFO - Starting scrape for channel: TikvahPharma
+2025-07-13 10:36:40,443 - INFO - Scraping channel: @tikvahpharma (Internal name: TikvahPharma)
+2025-07-13 10:36:42,595 - INFO - Saved 100 messages from TikvahPharma to data/raw/telegram_messages/2025-07-13/TikvahPharma.json
+2025-07-13 10:36:42,596 - INFO - Completed scrape for channel: TikvahPharma
+2025-07-13 10:36:42,597 - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-07-13 10:36:42,601 - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
