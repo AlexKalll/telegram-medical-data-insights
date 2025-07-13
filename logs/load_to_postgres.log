@@ -1,0 +1,26 @@
+2025-07-13 19:19:43,575 - ERROR - Main error: could not translate host name "postgres_db" to address: Temporary failure in name resolution
+
+2025-07-13 19:23:00,986 - INFO - Connected to PostgreSQL database: telegram_medical_data
+2025-07-13 19:23:02,687 - INFO - Created raw.telegram_messages table
+2025-07-13 19:23:02,705 - INFO - PostgreSQL connection closed
+2025-07-13 19:28:12,011 - INFO - Connected to PostgreSQL database: telegram_medical_data
+2025-07-13 19:28:12,015 - INFO - Created raw.telegram_messages table
+2025-07-13 19:28:12,028 - INFO - PostgreSQL connection closed
+2025-07-13 19:29:24,135 - INFO - Connected to PostgreSQL database: telegram_medical_data
+2025-07-13 19:29:24,138 - INFO - Created raw.telegram_messages table
+2025-07-13 19:29:24,147 - INFO - Processing file: data/raw/telegram_messages/2025-07-13/Chemed.json
+2025-07-13 19:29:24,478 - INFO - Loaded 76 messages from data/raw/telegram_messages/2025-07-13/Chemed.json to PostgreSQL, 1 inserted
+2025-07-13 19:29:24,481 - INFO - Processing file: data/raw/telegram_messages/2025-07-13/Lobelia4Cosmetics.json
+2025-07-13 19:29:24,597 - INFO - Loaded 100 messages from data/raw/telegram_messages/2025-07-13/Lobelia4Cosmetics.json to PostgreSQL, 1 inserted
+2025-07-13 19:29:24,598 - INFO - Processing file: data/raw/telegram_messages/2025-07-13/TikvahPharma.json
+2025-07-13 19:29:24,713 - INFO - Loaded 100 messages from data/raw/telegram_messages/2025-07-13/TikvahPharma.json to PostgreSQL, 1 inserted
+2025-07-13 19:29:24,718 - INFO - PostgreSQL connection closed
+2025-07-13 20:04:47,322 - INFO - Connected to PostgreSQL database: telegram_medical_data
+2025-07-13 20:04:47,609 - INFO - Created raw.telegram_messages table
+2025-07-13 20:04:47,624 - INFO - Processing file: data/raw/telegram_messages/2025-07-13/Chemed.json
+2025-07-13 20:04:47,761 - INFO - Loaded 76 messages from data/raw/telegram_messages/2025-07-13/Chemed.json to PostgreSQL, 0 skipped
+2025-07-13 20:04:47,762 - INFO - Processing file: data/raw/telegram_messages/2025-07-13/Lobelia4Cosmetics.json
+2025-07-13 20:04:47,954 - INFO - Loaded 100 messages from data/raw/telegram_messages/2025-07-13/Lobelia4Cosmetics.json to PostgreSQL, 0 skipped
+2025-07-13 20:04:47,958 - INFO - Processing file: data/raw/telegram_messages/2025-07-13/TikvahPharma.json
+2025-07-13 20:04:48,124 - INFO - Loaded 100 messages from data/raw/telegram_messages/2025-07-13/TikvahPharma.json to PostgreSQL, 0 skipped
+2025-07-13 20:04:48,133 - INFO - PostgreSQL connection closed
