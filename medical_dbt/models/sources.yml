@@ -1,0 +1,45 @@
+# medical_dbt/models/sources.yml
+
+version: 2
+
+sources:
+  - name: raw # Name of your source (e.g., 'raw' for raw data)
+    database: telegram_medical_data # Your PostgreSQL database name
+    schema: raw # The schema where your raw_telegram_messages table resides
+
+    tables:
+      - name: telegram_messages # The raw table name
+        description: "Raw messages scraped from Telegram channels."
+        columns:
+          - name: message_id
+            description: "Unique ID of the message within its channel."
+            tests:
+              - not_null
+          - name: channel_name
+            description: "Name of the Telegram channel."
+            tests:
+              - not_null
+          - name: channel_username
+            description: "Username of the Telegram channel (e.g., @CheMed123)."
+            tests:
+              - not_null
+          - name: scrape_date
+            description: "Date the message was scraped into the data lake."
+            tests:
+              - not_null
+          - name: message_date
+            description: "Original date the message was posted on Telegram."
+            tests:
+              - not_null
+          - name: message_text
+            description: "Full text content of the message."
+          - name: message_length
+            description: "Length of the message text."
+          - name: views
+            description: "Number of views the message received."
+          - name: forwards
+            description: "Number of times the message was forwarded."
+          - name: has_photo
+            description: "Boolean indicating if the message contains a photo."
+          - name: photo_path
+            description: "Local path to the downloaded photo, if any."

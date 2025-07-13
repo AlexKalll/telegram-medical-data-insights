@@ -1,0 +1,41 @@
+# dbt_project.yml
+name: 'medical_dbt'
+version: '1.0.0'
+config-version: 2
+
+vars: # Add this block
+  surrogate_key_treat_nulls_as_empty_strings: True
+
+# This setting configures which "profile" dbt uses for this project.
+profile: 'medical_dbt' # This should match the profile name in ~/.dbt/profiles.yml
+
+# These configurations specify where dbt should find your models, tests, macros, and seeds.
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+target-path: "target"  # directory which will store compiled SQL files
+clean-targets:         # directories to clean when `dbt clean` is run
+  - "target"
+  - "dbt_packages"
+  - "dbt_modules"
+
+# Configures models to be created in a 'public' schema by default,
+# and sets default materialization for different model layers.
+models:
+  medical_dbt:
+    # Config for all models in the project
+    +schema: public # Default schema for all models created by this project
+    +materialized: view # Default materialization for models (can be overridden)
+
+    # Specific configurations for staging and marts directories
+    staging:
+      +materialized: view # Staging models often as views for lightweight transformations
+      +schema: staging # Put staging models in a 'staging' schema
+
+    marts:
+      +materialized: table # Marts models often as tables for performance
+      +schema: marts # Put mart models in a 'marts' schema

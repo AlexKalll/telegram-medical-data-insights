@@ -1,0 +1,158 @@
+# medical_dbt/models/schema.yml
+
+version: 2
+
+models:
+  - name: stg_telegram_messages
+    description: "Staging model for raw Telegram messages, with basic cleaning and type casting."
+    columns:
+      - name: message_id
+        description: "Unique identifier for the message within its channel."
+        tests:
+          - not_null
+      - name: channel_username
+        description: "Username of the Telegram channel (e.g., @CheMed123)."
+        tests:
+          - not_null
+      - name: message_sk
+        description: "Surrogate key for the message, combining message_id and channel_username."
+        tests:
+          - unique
+          - not_null
+      - name: message_date
+        description: "Original date the message was posted on Telegram."
+        tests:
+          - not_null
+      - name: scrape_date
+        description: "Date the message was scraped."
+        tests:
+          - not_null
+
+  - name: dim_channels
+    description: "Dimension table containing unique Telegram channel information."
+    columns:
+      - name: channel_sk
+        description: "Surrogate key for the channel dimension."
+        tests:
+          - unique
+          - not_null
+      - name: channel_username
+        description: "Unique username of the Telegram channel (natural key)."
+        tests:
+          - unique
+          - not_null
+      - name: channel_name
+        description: "Display name of the Telegram channel."
+        tests:
+          - not_null
+
+  - name: dim_dates
+    description: "Dimension table containing various date attributes for time-based analysis."
+    columns:
+      - name: date_sk
+        description: "Surrogate key for the date dimension (YYYYMMDD integer)."
+        tests:
+          - unique
+          - not_null
+      - name: full_date
+        description: "Full date."
+        tests:
+          - unique
+          - not_null
+      - name: year
+        description: "Year of the date."
+      - name: month
+        description: "Month number of the date."
+      - name: month_name
+        description: "Full name of the month."
+      - name: day_of_month
+        description: "Day of the month."
+      - name: day_of_week_num
+        description: "Day of the week (0=Sunday, 6=Saturday)."
+      - name: day_of_week_name
+        description: "Full name of the day of the week."
+      - name: quarter
+        description: "Quarter of the year."
+      - name: week_of_year
+        description: "Week number of the year."
+      - name: day_of_year
+        description: "Day number of the year."
+      - name: is_weekend
+        description: "Boolean indicating if the date is a weekend."
+      - name: incremental_num
+        description: "An incremental number for each date."
+
+  - name: fct_messages
+    description: "Fact table containing Telegram message details and key metrics."
+    columns:
+      - name: message_sk
+        description: "Primary key for the fact table, linking to staging messages."
+        tests:
+          - unique
+          - not_null
+          - relationships:
+              to: ref('stg_telegram_messages')
+              field: message_sk
+      - name: message_id
+        description: "Original message ID from Telegram."
+        tests:
+          - not_null
+      - name: channel_sk
+        description: "Foreign key to the dim_channels table."
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_channels')
+              field: channel_sk
+      - name: message_date_sk
+        description: "Foreign key to the dim_dates table for the message's original date."
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_dates')
+              field: date_sk
+      - name: scrape_date_sk
+        description: "Foreign key to the dim_dates table for the message's scrape date."
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_dates')
+              field: date_sk
+      - name: message_text
+        description: "Content of the message."
+      - name: message_length
+        description: "Length of the message text."
+      - name: views
+        description: "Number of views."
+      - name: forwards
+        description: "Number of forwards."
+      - name: has_photo
+        description: "Indicates if the message has a photo."
+      - name: photo_path
+        description: "Path to the associated photo."
+      - name: is_urgent_message
+        description: "Boolean flag if message text contains 'urgent'."
+      - name: is_vacancy_message
+        description: "Boolean flag if message text contains 'vacancy'."
+      - name: message_count
+        description: "Count of messages (always 1 for granularity)."
+
+  - name: fct_image_detections
+    description: "Fact table for image detection results (populated in Task 3)."
+    columns:
+      - name: image_detection_sk
+        description: "Surrogate key for the image detection record."
+      - name: message_sk
+        description: "Foreign key to the fct_messages table."
+        tests:
+          - relationships:
+              to: ref('fct_messages')
+              field: message_sk
+      - name: detected_object_class
+        description: "Class of the object detected by YOLO (e.g., 'pill', 'cream')."
+      - name: confidence_score
+        description: "Confidence score of the detection."
+      - name: image_path
+        description: "Path to the image that was analyzed."
+      - name: detection_timestamp
+        description: "Timestamp when the detection was performed."
