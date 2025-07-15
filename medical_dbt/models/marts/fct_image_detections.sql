@@ -1,18 +1,26 @@
 -- medical_dbt/models/marts/fct_image_detections.sql
 
--- Fact table for image detections from YOLO.
--- This is a placeholder and will be populated in Task 3.
+-- Fact table for image detection results from YOLO.
 
 {{ config(materialized='table') }}
 
 SELECT
-    -- Placeholder columns for now.
-    -- These will be populated with actual YOLO detection results later.
-    CAST(NULL AS VARCHAR) AS image_detection_sk, -- Surrogate key for this fact
-    CAST(NULL AS VARCHAR) AS message_sk,         -- Foreign key to fct_messages
-    CAST(NULL AS VARCHAR) AS detected_object_class,
-    CAST(NULL AS NUMERIC) AS confidence_score,
-    CAST(NULL AS TEXT) AS image_path,
-    CAST(NULL AS TIMESTAMP) AS detection_timestamp
+    -- Surrogate key for this fact, combining detection_id and detected_object_class
+    {{ dbt_utils.generate_surrogate_key(['rid.detection_id', 'rid.detected_object_class']) }} AS image_detection_sk,
+    
+    fm.message_sk,         -- Foreign key to fct_messages
+    rid.detected_object_class,
+    rid.confidence_score,
+    rid.image_path,
+    rid.detection_timestamp,
 
-WHERE 1 = 0 -- Ensures the table is created but remains empty initially
+    -- Add a count metric for detections
+    1 AS detection_count
+
+FROM
+    {{ source('raw', 'image_detections') }} rid
+LEFT JOIN
+    {{ ref('fct_messages') }} fm ON rid.message_id = fm.message_id AND rid.channel_username = fm.channel_username
+-- Note: We are joining on message_id and channel_username.
+-- Ensure that the channel_username stored in raw.image_detections matches the one in fct_messages for joins to work.
+-- If your image filename parsing for channel_username is not robust, this join might fail.

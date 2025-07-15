@@ -104,6 +104,10 @@ models:
           - relationships:
               to: ref('dim_channels')
               field: channel_sk
+      - name: channel_username # ADDED: Documentation for channel_username
+        description: "Username of the Telegram channel (natural key for joining with image detections)."
+        tests:
+          - not_null # Assuming channel_username should always be present
       - name: message_date_sk
         description: "Foreign key to the dim_dates table for the message's original date."
         tests:
@@ -138,21 +142,37 @@ models:
         description: "Count of messages (always 1 for granularity)."
 
   - name: fct_image_detections
-    description: "Fact table for image detection results (populated in Task 3)."
+    description: "Fact table for image detection results from YOLO."
     columns:
       - name: image_detection_sk
         description: "Surrogate key for the image detection record."
+        tests:
+          - unique
+          - not_null
       - name: message_sk
         description: "Foreign key to the fct_messages table."
         tests:
+          - not_null # Assuming every detection should link to a message
           - relationships:
               to: ref('fct_messages')
               field: message_sk
       - name: detected_object_class
         description: "Class of the object detected by YOLO (e.g., 'pill', 'cream')."
+        tests:
+          - not_null
       - name: confidence_score
         description: "Confidence score of the detection."
+        tests:
+          - not_null
+          # Removed dbt_utils.at_least_one and dbt_utils.at_most_one as they don't accept 'value' argument
+          # If you want to test the range, consider a custom singular test like:
+          # - dbt_utils.expression_is_true:
+          #     expression: "confidence_score >= 0.0 AND confidence_score <= 1.0"
       - name: image_path
         description: "Path to the image that was analyzed."
       - name: detection_timestamp
         description: "Timestamp when the detection was performed."
+        tests:
+          - not_null
+      - name: detection_count
+        description: "Count of detections (always 1 for granularity)."
