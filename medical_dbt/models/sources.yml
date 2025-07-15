@@ -5,10 +5,10 @@ version: 2
 sources:
   - name: raw # Name of your source (e.g., 'raw' for raw data)
     database: telegram_medical_data # Your PostgreSQL database name
-    schema: raw # The schema where your raw_telegram_messages table resides
+    schema: raw # The schema where your raw tables reside
 
     tables:
-      - name: telegram_messages # The raw table name
+      - name: telegram_messages # The raw telegram messages table
         description: "Raw messages scraped from Telegram channels."
         columns:
           - name: message_id
@@ -43,3 +43,34 @@ sources:
             description: "Boolean indicating if the message contains a photo."
           - name: photo_path
             description: "Local path to the downloaded photo, if any."
+      
+      - name: image_detections # The raw image detections table
+        description: "Raw object detection results from YOLO on scraped images."
+        columns:
+          - name: detection_id
+            description: "Unique identifier for each detection event."
+            tests:
+              - not_null
+              - unique
+          - name: message_id
+            description: "Original message ID associated with the image."
+            tests:
+              - not_null
+          - name: channel_username
+            description: "Username of the channel the image belongs to."
+            tests:
+              - not_null
+          - name: image_path
+            description: "Relative path to the image file."
+          - name: detected_object_class
+            description: "Class of the object detected (e.g., 'person', 'bottle')."
+            tests:
+              - not_null
+          - name: confidence_score
+            description: "Confidence score of the detection."
+            tests:
+              - not_null
+          - name: detection_timestamp
+            description: "Timestamp when the detection was performed."
+            tests:
+              - not_null

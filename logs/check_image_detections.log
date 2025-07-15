@@ -1,0 +1,13 @@
+2025-07-15 20:58:07,718 - INFO - Connected to PostgreSQL database: telegram_medical_data
+2025-07-15 20:58:07,723 - INFO - Total records in raw.image_detections: 232
+2025-07-15 20:58:07,725 - INFO - Channel @CheMed123: 144 detections
+2025-07-15 20:58:07,727 - INFO - Channel @lobelia4cosmetics: 88 detections
+2025-07-15 20:58:07,734 - INFO - No duplicate detection_ids found
+2025-07-15 20:58:07,736 - INFO - Sample rows from raw.image_detections:
+2025-07-15 20:58:07,737 - INFO - detection_id: Chemed_11_clock_20250715202005124034, message_id: 11, channel_username: @CheMed123, image_path: data/images/Chemed_11.jpg, detected_object_class: clock, confidence_score: 0.4273
+2025-07-15 20:58:07,738 - INFO - detection_id: Chemed_13_hot dog_20250715202005483235, message_id: 13, channel_username: @CheMed123, image_path: data/images/Chemed_13.jpg, detected_object_class: hot dog, confidence_score: 0.5039
+2025-07-15 20:58:07,738 - INFO - detection_id: Chemed_13_donut_20250715202005483500, message_id: 13, channel_username: @CheMed123, image_path: data/images/Chemed_13.jpg, detected_object_class: donut, confidence_score: 0.3990
+2025-07-15 20:58:07,739 - INFO - detection_id: Chemed_13_hot dog_20250715202005483675, message_id: 13, channel_username: @CheMed123, image_path: data/images/Chemed_13.jpg, detected_object_class: hot dog, confidence_score: 0.3097
+2025-07-15 20:58:07,740 - INFO - detection_id: Chemed_13_donut_20250715202005483833, message_id: 13, channel_username: @CheMed123, image_path: data/images/Chemed_13.jpg, detected_object_class: donut, confidence_score: 0.2969
+2025-07-15 20:58:07,746 - INFO - All detections have matching message_ids in raw.telegram_messages
+2025-07-15 20:58:07,746 - INFO - PostgreSQL connection closed

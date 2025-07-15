@@ -9,6 +9,7 @@ SELECT
     stm.message_sk, -- Surrogate key from staging, acts as primary key for this fact
     stm.message_id,
     dc.channel_sk, -- Foreign key to dim_channels
+    stm.channel_username, -- ADDED: Include channel_username in the fact table
     dd.date_sk AS message_date_sk, -- Foreign key to dim_dates for message_date
     CAST(TO_CHAR(stm.scrape_date, 'YYYYMMDD') AS INTEGER) AS scrape_date_sk, -- Foreign key for scrape_date
     
