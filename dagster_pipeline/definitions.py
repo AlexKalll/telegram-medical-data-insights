@@ -128,7 +128,6 @@ def run_yolo_enrichment():
         logger.error("Python command not found. Is Python installed and in PATH?")
         raise
 
-
 # --- Job Definition ---
 
 @job(name="telegram_data_pipeline", description="End-to-end pipeline for Telegram medical data insights.")
@@ -157,7 +156,7 @@ daily_pipeline_schedule = ScheduleDefinition(
     name="daily_telegram_pipeline"
 )
 
-# --- Definitions (for Dagster UI) ---
+# --- Definition (for Dagster UI) ---
 defs = Definitions(
     jobs=[telegram_data_pipeline],
     schedules=[daily_pipeline_schedule]
