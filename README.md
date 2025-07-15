@@ -2,28 +2,28 @@
 
 ## Table of Contents
 
-1.  [Overview](https://www.google.com/search?q=%23overview)
-2.  [Features](https://www.google.com/search?q=%23features)
-3.  [Architecture](https://www.google.com/search?q=%23architecture)
-      * [High-Level Data Pipeline](https://www.google.com/search?q=%23high-level-data-pipeline)
-      * [End-to-End Data Pipeline Diagram](https://www.google.com/search?q=%23end-to-end-data-pipeline-diagram)
-      * [Data Model (Star Schema) Diagram](https://www.google.com/search?q=%23data-model-star-schema-diagram)
-4.  [Key Findings & Results](https://www.google.com/search?q=%23key-findings--results)
-5.  [Challenges & Solutions](https://www.google.com/search?q=%23challenges--solutions)
-6.  [Technologies Used](https://www.google.com/search?q=%23technologies-used)
-7.  [Setup and Installation](https://www.google.com/search?q=%23setup-and-installation)
-      * [Prerequisites](https://www.google.com/search?q=%23prerequisites)
-      * [Cloning the Repository](https://www.google.com/search?q=%23cloning-the-repository)
-      * [Environment Setup with Docker Compose](https://www.google.com/search?q=%23environment-setup-with-docker-compose)
-8.  [Running the Pipeline](https://www.google.com/search?q=%23running-the-pipeline)
-      * [1. Data Ingestion & Loading](https://www.google.com/search?q=%231-data-ingestion--loading)
-      * [2. Data Transformation (dbt)](https://www.google.com/search?q=%232-data-transformation-dbt)
-      * [3. Data Enrichment (YOLOv8)](https://www.google.com/search?q=%233-data-enrichment-yolov8)
-      * [4. Analytical API (FastAPI)](https://www.google.com/search?q=%234-analytical-api-fastapi)
+1.  [Overview](#)
+2.  [Features]()
+3.  [Architecture]()
+      * [High-Level Data Pipeline]()
+      * [End-to-End Data Pipeline Diagram]()
+      * [Data Model (Star Schema) Diagram]()
+4.  [Key Findings & Results]()
+5.  [Challenges & Solutions]()
+6.  [Technologies Used]()
+7.  [Setup and Installation]()
+      * [Prerequisites]()
+      * [Cloning the Repository]()
+      * [Environment Setup with Docker Compose]()
+8.  [Running the Pipeline]()
+      * [1. Data Ingestion & Loading]()
+      * [2. Data Transformation (dbt)]()
+      * [3. Data Enrichment (YOLOv8)]()
+      * [4. Analytical API (FastAPI)]()
       * [5. Orchestration (Dagster)](https://www.google.com/search?q=%235-orchestration-dagster)
-9.  [Project Structure](https://www.google.com/search?q=%23project-structure)
-10. [Contributing](https://www.google.com/search?q=%23contributing)
-11. [Contact](https://www.google.com/search?q=%23contact)
+9.  [Project Structure]()
+10. [Contributing]()
+11. [Contact]()
 
 ## 1\. Overview
 
@@ -447,6 +447,8 @@ telegram-medical-data-insights/
     ├── telegram_scraper.log
     └── load_to_postgres.log
     └── yolo_detection.log
+├──tests/      
+    └── check_image_detections.y
 
 ```
 
@@ -463,6 +465,6 @@ Contributions are welcome\! Please follow these steps:
 
 ## 11\. Contact
 
-By: Kaletsidik Ayalew
+By: Kaletsidik Ayalew M.
 Email: findkal.here@gmail.com
 Date: July 15, 2025
