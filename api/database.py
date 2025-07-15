@@ -30,7 +30,7 @@ def get_db_connection():
         print(f"Database connection failed: {e}") # Use print for simplicity in API context
         raise
 
-# Example usage (not directly used by FastAPI, but for testing connection)
+# Example use (not directly used by FastAPI, but for testing connection)
 if __name__ == "__main__":
     try:
         conn = get_db_connection()

@@ -163,7 +163,7 @@ async def get_image_detections(message_sk: Optional[str] = None):
         sql_query += " WHERE message_sk = %s"
         params = (message_sk,)
     
-    sql_query += " LIMIT 100;" # Limit results for performance
+    sql_query += " LIMIT 100;" # Limit results for better performance
     
     results = fetch_data(sql_query, params)
     if not results and message_sk:
