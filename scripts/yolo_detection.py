@@ -37,7 +37,7 @@ CHANNEL_USERNAME_MAP = {
     'TikvahPharma': '@tikvahpharma'
 }
 
-# Image and model paths
+# Image and model path
 IMAGE_DIR = Path('data/images')
 YOLO_MODEL_PATH = 'yolov8n.pt'
 

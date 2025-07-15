@@ -1,7 +1,7 @@
 2025-07-15 20:18:45,839 - INFO - Starting YOLO object detection process...
 2025-07-15 20:18:50,177 - INFO - YOLO model 'yolov8n.pt' loaded successfully.
 2025-07-15 20:18:50,437 - INFO - Successfully connected to the database.
-2025-07-15 20:18:50,442 - INFO - Created raw.image_detections table successfully.
+2025-07-15 20:18:50,442 - INFO - Created raw.image_detections table successfully!
 2025-07-15 20:18:50,447 - INFO - Found 0 images already processed.
 2025-07-15 20:18:50,991 - INFO - Found 167 new images to process.
 2025-07-15 20:20:04,612 - INFO - No objects detected in Chemed_10.jpg.
